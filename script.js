@@ -59,7 +59,9 @@ function main() {
     // Create spectrum object on canvas with ID "waterfall"
     var spectrum = new Spectrum(
         "waterfall", {
-            spectrumPercent: 20
+            spectrumPercent: 2,
+            centerHz: 437475000,
+            spanHz: 24000
     });
 
     // Connect to websocket
